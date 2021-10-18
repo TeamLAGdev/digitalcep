@@ -1,0 +1,24 @@
+{
+    "name": "aluno/composer",
+    "description": "Busca de cep",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leonardo Marcelo",
+            "email": "teamlag434@gmail.com"
+        }
+    ],
+   
+    "require": {
+        "php": ">=7.2.8"
+    },
+    "autoload": {
+        "psr-0":{
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Aluno\\Composer\\": "src/"
+        }
+    }
+}
